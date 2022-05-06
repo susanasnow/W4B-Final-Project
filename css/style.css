@@ -3,10 +3,18 @@ body {
 }
 h1 {
     font-family: 'Chewy', cursive;
+    color: #2c2666;
+}
+header {
+    background-color: #f9ae65;
+    padding: 5px;
+    margin: 0px;
+    text-align: center;
 }
 nav {
-    background-color: pink;
+    background-color: #f9ae65;
     padding: 20px 20px;
+    margin: 0px;
 }
 nav ul {
     text-align: right;
@@ -16,4 +24,8 @@ nav ul li {
 }
 nav ul li a {
     color: white;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
 }
